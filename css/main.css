@@ -1,8 +1,14 @@
 body {
   font-family: 'Roboto', Helvetica, sans-serif;
-  background-color: grey;
+  background-color: rgb(255, 255, 255);
   margin: 0;
   padding: 0;
+}
+
+.title{
+  font-size: 3rem;
+  font-weight: bold;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 h1,
@@ -30,6 +36,7 @@ img {
   flex-wrap: wrap;
   margin: 0;
   padding: 0;
+  background-color: rgb(250, 255, 255);
 }
 
 .main-nav ul li {
@@ -69,16 +76,20 @@ form button {
 .site-footer {
   padding: 2rem 0;
 }
+
 .skip_links{
   margin:0;
   padding:0;
   list-style-type: none;
 }
+
 .skip_links a{
 position: absolute;
 top: -3rem;
 color: aliceblue;
 }
+
 .skip_links a:focus{
   top: 0;
 }
+
